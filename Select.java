@@ -96,7 +96,7 @@ public class Select {
                         System.out.println("请输入您要抽取的人员位数(请小于"+names.size()+"次):");
                         int stuNumber= sc.nextInt();
                        if(stuNumber< names.size()){
-                           for (int i = 0; i <= stuNumber; i++) {
+                           for (int i = 0; i < stuNumber; i++) {
                                int a = r.nextInt(names.size());
                                System.out.print("第"+(i+1)+"次抽取到的人为:");
                                System.out.print(" "+names.get(a).getName()+" ");
